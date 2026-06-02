@@ -26,9 +26,7 @@ exports[`appRouter > should be configured as expected 1`] = `
       },
       {
         "children": undefined,
-        "element": <Navigate
-          to="/"
-        />,
+        "element": <HomePage />,
         "hasErrorBoundary": false,
         "id": "0-3",
         "path": "*",

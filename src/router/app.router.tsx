@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { createHashRouter, Navigate } from 'react-router';
+import { createHashRouter } from 'react-router';
 
 import { AdminLayout } from '@/admin/layouts/AdminLayout';
 import { AdminPage } from '@/admin/pages/AdminPage';
@@ -31,8 +31,7 @@ export const appRouter = createHashRouter([
       },
       {
         path: '*',
-        // element: <h1>404</h1>,
-        element: <Navigate to="/" />,
+        element: <HomePage />,
       },
     ],
   },
